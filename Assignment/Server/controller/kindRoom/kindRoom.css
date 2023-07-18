@@ -1,0 +1,120 @@
+.nut-add a {
+    text-decoration: none;
+    color: black;
+}
+
+.nut-add {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(218, 232, 238);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(163, 159, 159);
+}
+
+.nut-add:hover {
+    background-color: rgb(0, 227, 243);
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+table th {
+    border: 1px solid rgb(104, 98, 98);
+    color: rgb(65 65 65);
+}
+
+tr {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+tr td {
+    color: rgb(46, 47, 48);
+    height: 50px;
+    border: 1px solid rgb(180, 170, 170);
+}
+
+.page {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.page ul {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.page ul a {
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+button.delete {
+    padding: 5px 15px 5px 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button.delete:hover {
+    background-color: rgb(102, 22, 22);
+}
+
+button.update {
+    padding: 5px 13px 5px 14px;
+    background-color: rgb(3, 83, 231);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button.update:hover {
+    background-color: rgb(15, 15, 82);
+}
+
+input{
+    width: 95%;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 17px;
+    padding-left: 10px;
+    margin: 15px 0px;
+    margin-left: 15px;
+}
+textarea{
+    width: 95%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 17px;
+    padding-left: 10px;
+    margin: 15px 0px;
+    margin-left: 15px;
+}
+select{
+    margin: 20px 0px;
+    margin-left: 15px;
+    padding: 10px;
+}
+label{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.nut{
+    width: 80px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 10px;
+    color: black;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}

@@ -1,0 +1,70 @@
+.admin {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+.category {
+    background-color: rgb(218, 232, 238);
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 15px;
+}
+
+.category-1 p{
+    color: rgb(18, 18, 19);
+    font-size: 20px;
+}
+.category-1 a p{
+    display: inline-block;
+    text-align: center;
+}
+
+.category-1 p:hover{
+    color: white;
+}
+
+.logout {
+    padding-top: 120px;
+}
+
+.logout p{
+    color: rgb(27, 23, 23);
+    font-size: 23px;
+    padding-left: 20px;
+}
+
+.logout p:hover{
+    color: rgb(0, 37, 250);
+}
+
+.content {
+    padding-left: 20px;
+}
+.content h1{
+    text-align: center;
+    color: #576162;
+    background-color: rgb(191 224 231);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 18px 0px 12px 0px;
+    border-radius: 15px;
+}
+
+.test-1 a p {
+    padding-left: 20px;
+}
+
+.test-1:hover{
+    background-color: rgb(27, 108, 114);
+    border-radius: 20px;
+}
+
+.test-1 i {
+    color: rgb(23, 65, 112);
+    font-size: 25px;
+    padding-left: 2px;
+}
+
+.test-1 i:hover {
+    color: white;
+}

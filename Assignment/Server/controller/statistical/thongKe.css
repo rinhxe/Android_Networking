@@ -1,0 +1,44 @@
+.content-1 {
+    display: grid;
+    grid-template-columns: 1fr 700px;
+    grid-gap: 20px;
+}
+
+.price-sum {
+    max-width: 300px;
+    background-color: #c1d9ff;
+    padding: 30px 0px 40px 50px;
+    border-radius: 30px;
+    margin-top: 60px;
+    color: rgb(36, 40, 44);
+}
+
+.thong-ke {
+    margin-top: 50px;
+}
+
+.thong-ke h4:hover {
+    background-color: #ffdfdf;
+}
+
+.thong-ke h4 {
+    background-color: #d8d8d8;
+    color: #262629;
+    padding: 10px 10px 10px 10px;
+    margin-right: 290px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.two h3:hover {
+    background-color: #7e3d08;
+}
+
+.two h3 {
+    background-color: #60564e;
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    margin-right: 290px;
+    text-align: center;
+    border-radius: 30px;
+}

@@ -1,0 +1,83 @@
+body {
+    background: url('../img/background-login.jpg');
+    font-size: 6px;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-login {
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.8);
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 20px 20px rgba(254, 253, 253, 0.8);
+}
+
+.form-heading {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    border-bottom: 1px solid white;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.form-login i {
+    color: white;
+    font-size: 25px;
+    padding-right: 7px;
+    float: right;
+    padding-right: 0;
+}
+
+.form-login i:hover {
+
+    background-color: red;
+}
+
+.form-group i {
+    color: white;
+    font-size: 14px;
+    padding-right: 7px;
+    float: left;
+}
+
+.form-input {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: white;
+}
+
+.form-input::placeholder {
+    color: white;
+}
+
+.form-submit {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.form-submit:hover {
+    border: 1px solid rgb(84, 84, 225);
+}
+
+h2 {
+    font-size: 17px;
+    color: white;
+    /* text-align: left; */
+}

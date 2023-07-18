@@ -1,0 +1,11 @@
+.add-admin {
+    padding: 7px 10px 7px 10px;
+    background-color: #aadbdb;
+    border: solid 1px gray;
+    border-radius: 10px;
+    margin-bottom: 9px;
+}
+
+.add-admin:hover {
+    background-color: #09dbdb;
+}

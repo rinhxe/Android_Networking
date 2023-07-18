@@ -1,0 +1,36 @@
+.nut-add a {
+    text-decoration: none;
+    color: black;
+}
+
+.nut-add {
+    width: 80px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.hangHoa .search input:nth-child(1){
+    width: 250px;
+    height: 40px;
+    margin: 20px 0;
+    padding-left: 20px;
+    border: 0;
+    background-color: #d3d3d3;
+}
+
+.hangHoa .search input:nth-child(2){
+    width: 80px;
+    height: 42px;
+    font-weight: bold;
+    border: 0;
+    background-color: #d3d3d3;
+    cursor: pointer;
+}
+
+
+input[type="submit"] {
+    margin-left: 0px;
+}
