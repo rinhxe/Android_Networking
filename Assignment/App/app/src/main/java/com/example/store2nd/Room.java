@@ -44,4 +44,45 @@ public class Room {
     public void setStatus(String status) {
         this.status = status;
     }
+    public String getRoomType(){
+        switch (kind_of_room_id){
+            case 1:{
+                return "Phòng đơn";
+            }
+            case 2:{
+                return "Phòng đôi";
+            }
+            case 3:{
+                return "Phòng Gia Đình";
+            }
+            case 4:{
+                return "Phòng Tổng Thống";
+            }
+            case 5:{
+                return "Phòng Thủ Tướng";
+            }
+        }
+        return null;
+    }
+    public int getRoomImage(){
+        switch (kind_of_room_id){
+            case 1:{
+                return R.drawable.khachsan1;
+            }
+            case 2:{
+                return R.drawable.khachsan2;
+            }
+            case 3:{
+                return R.drawable.khachsan3;
+            }
+            case 4:{
+                return R.drawable.khachsan4;
+            }
+            case 5:{
+                return R.drawable.khachsan5;
+            }
+        }
+        return 0;
+    }
+
 }
